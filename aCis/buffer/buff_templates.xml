@@ -1,0 +1,823 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "buff_templates.dtd">
+<list>
+    <template menuId="1000" target="BUFF_PLAYER">
+        <consume>
+            <item id="57" amount="1"/>
+   	    </consume>
+        <produce>
+            <skill id="1204" level="2" />
+            <skill id="1040" level="3" />
+            <skill id="1068" level="3" />
+            <skill id="1062" level="2" />
+            <skill id="1036" level="2" />
+            <skill id="1045" level="6" />
+            <skill id="1086" level="2" />
+            <skill id="1077" level="3" />
+            <skill id="1242" level="3" />
+            <skill id="1268" level="4" />
+            <skill id="264" level="1" />
+            <skill id="268" level="1" />
+            <skill id="269" level="1" />
+            <skill id="267" level="1" />
+            <skill id="304" level="1" />
+            <skill id="271" level="1" />
+            <skill id="274" level="1" />
+            <skill id="275" level="1" />
+            <skill id="310" level="1" />
+            <skill id="1363" level="1" />
+        </produce>
+    </template>
+	<!-- Mage Buff -->
+    <template menuId="1001" target="BUFF_PLAYER">
+        <consume>
+            <item id="57" amount="1"/>
+   	    </consume>
+        <produce>
+            <skill id="1204" level="2" />
+            <skill id="1040" level="3" />
+            <skill id="1036" level="2" />
+            <skill id="1085" level="3" />
+            <skill id="1062" level="2" />
+            <skill id="1048" level="6" />
+            <skill id="1045" level="6" />
+            <skill id="1059" level="3" />
+            <skill id="1303" level="2" />
+            <skill id="1035" level="4" />
+            <skill id="264" level="1" />
+            <skill id="265" level="1" />
+            <skill id="268" level="1" />
+            <skill id="267" level="1" />
+            <skill id="304" level="1" />
+            <skill id="273" level="1" />
+            <skill id="276" level="1" />
+            <skill id="365" level="1" />
+            <skill id="1413" level="1" />
+        </produce>
+    </template>
+	<!-- 1068 - Level 3 - Might OK-->
+    <template menuId="1002" target="BUFF_PLAYER">
+        <consume>
+            <item id="57" amount="1" />
+   	    </consume>
+        <produce>
+            <skill id="1068" level="3" />
+        </produce>
+    </template>
+	<!-- 1085 - Level 3 - Acumen OK-->
+    <template menuId="1003" target="BUFF_PLAYER">
+        <consume>
+            <item id="57" amount="1" />
+   	    </consume>
+        <produce>
+            <skill id="1085" level="3" />
+        </produce>
+    </template>
+	<!-- 1204 - Level 2 - Wind Walk OK-->
+    <template menuId="1004" target="BUFF_PLAYER">
+        <consume>
+            <item id="57" amount="1" />
+   	    </consume>
+        <produce>
+            <skill id="1204" level="2" />
+        </produce>
+    </template>
+	<!-- 1035 - Level 4 - Mental Shield OK-->
+    <template menuId="1005" target="BUFF_PLAYER">
+        <consume>
+            <item id="57" amount="1" />
+   	    </consume>
+        <produce>
+            <skill id="1035" level="4" />
+        </produce>
+    </template>
+	<!-- 1243 - Level 6 - Bless Shield OK-->
+    <template menuId="1006" target="BUFF_PLAYER">
+        <consume>
+            <item id="57" amount="1" />
+   	    </consume>
+        <produce>
+            <skill id="1243" level="6" />
+        </produce>
+    </template>
+	<!-- 1240 - Level 3 - Guidance OK-->
+    <template menuId="1007" target="BUFF_PLAYER">
+        <consume>
+            <item id="57" amount="1" />
+   	    </consume>
+        <produce>
+            <skill id="1240" level="3" />
+        </produce>
+    </template>
+	<!-- 1048 - Level 6 - Blessed Soul OK-->
+    <template menuId="1008" target="BUFF_PLAYER">
+        <consume>
+            <item id="57" amount="1" />
+   	    </consume>
+        <produce>
+            <skill id="1048" level="6" />
+        </produce>
+    </template>
+	<!-- 1036 - Level 2 - Magic Barrier OK-->
+    <template menuId="1009" target="BUFF_PLAYER">
+        <consume>
+            <item id="57" amount="1" />
+   	    </consume>
+        <produce>
+            <skill id="1036" level="2" />
+        </produce>
+    </template>
+	<!-- 1389 - Level 3 - Greater Shield OK-->
+    <template menuId="1010" target="BUFF_PLAYER">
+        <consume>
+            <item id="57" amount="1" />
+   	    </consume>
+        <produce>
+            <skill id="1389" level="3" />
+        </produce>
+    </template>
+	<!-- 1259 - Level 4 - Resist Shock OK-->
+    <template menuId="1011" target="BUFF_PLAYER">
+        <consume>
+            <item id="57" amount="1" />
+   	    </consume>
+        <produce>
+            <skill id="1259" level="4" />
+        </produce>
+    </template>
+	<!-- 1397 - Level 3 - Clarity OK-->
+    <template menuId="1012" target="BUFF_PLAYER">
+        <consume>
+            <item id="57" amount="1" />
+   	    </consume>
+        <produce>
+            <skill id="1397" level="3" />
+        </produce>
+    </template>
+	<!-- 1059 - Level 3 - Empower OK-->
+    <template menuId="1013" target="BUFF_PLAYER">
+        <consume>
+            <item id="57" amount="1" />
+   	    </consume>
+        <produce>
+            <skill id="1059" level="3" />
+        </produce>
+    </template>
+	<!-- 1040 - Level 3 - Shield OK-->
+    <template menuId="1014" target="BUFF_PLAYER">
+        <consume>
+            <item id="57" amount="1" />
+   	    </consume>
+        <produce>
+            <skill id="1040" level="3" />
+        </produce>
+    </template>
+	<!-- 1078 - Level 6 - Concentration OK-->
+    <template menuId="1015" target="BUFF_PLAYER">
+        <consume>
+            <item id="57" amount="1" />
+   	    </consume>
+        <produce>
+            <skill id="1078" level="6" />
+        </produce>
+    </template>
+	<!-- 1077 - Level 3 - Focus OK-->
+    <template menuId="1016" target="BUFF_PLAYER">
+        <consume>
+            <item id="57" amount="1" />
+   	    </consume>
+        <produce>
+            <skill id="1077" level="3" />
+        </produce>
+    </template>
+	<!-- 1062 - Level 2 - Berserker Spirit OK-->
+    <template menuId="1017" target="BUFF_PLAYER">
+        <consume>
+            <item id="57" amount="1" />
+   	    </consume>
+        <produce>
+            <skill id="1062" level="2" />
+        </produce>
+    </template>
+	<!-- 1242 - Level 3 - Death Whisper OK-->
+    <template menuId="1018" target="BUFF_PLAYER">
+        <consume>
+            <item id="57" amount="1" />
+   	    </consume>
+        <produce>
+            <skill id="1242" level="3" />
+        </produce>
+    </template>
+	<!-- 1045 - Level 6 - Blessed Body OK-->
+    <template menuId="1019" target="BUFF_PLAYER">
+        <consume>
+            <item id="57" amount="1" />
+   	    </consume>
+        <produce>
+            <skill id="1045" level="6" />
+        </produce>
+    </template>
+	<!-- 1086 - Level 2 - Haste OK-->
+    <template menuId="1020" target="BUFF_PLAYER">
+        <consume>
+            <item id="57" amount="1" />
+   	    </consume>
+        <produce>
+            <skill id="1086" level="2" />
+        </produce>
+    </template>
+	<!-- 1388 - Level 3 - Greater Might OK-->
+    <template menuId="1021" target="BUFF_PLAYER">
+        <consume>
+            <item id="57" amount="1" />
+   	    </consume>
+        <produce>
+            <skill id="1388" level="3" />
+        </produce>
+    </template>
+	<!-- 1087 - Level 3 - Agility OK-->
+    <template menuId="1022" target="BUFF_PLAYER">
+        <consume>
+            <item id="57" amount="1" />
+   	    </consume>
+        <produce>
+            <skill id="1087" level="3" />
+        </produce>
+    </template>
+	<!-- 1304 - Level 3 - Advanced Block OK-->
+    <template menuId="1023" target="BUFF_PLAYER">
+        <consume>
+            <item id="57" amount="1" />
+   	    </consume>
+        <produce>
+            <skill id="1304" level="3" />
+        </produce>
+    </template>
+	<!-- 1303 - Level 2 - Wild Magic OK-->
+    <template menuId="1024" target="BUFF_PLAYER">
+        <consume>
+            <item id="57" amount="1" />
+   	    </consume>
+        <produce>
+            <skill id="1303" level="2" />
+        </produce>
+    </template>
+	<!-- 1268 - Level 4 - Vampiric Rage OK-->
+    <template menuId="1025" target="BUFF_PLAYER">
+        <consume>
+            <item id="57" amount="1" />
+   	    </consume>
+        <produce>
+            <skill id="1268" level="4" />
+        </produce>
+    </template>
+	<!-- 1257 - Level 3 - Decrease Weight OK-->
+    <template menuId="1026" target="BUFF_PLAYER">
+        <consume>
+            <item id="57" amount="1" />
+   	    </consume>
+        <produce>
+            <skill id="1257" level="3" />
+        </produce>
+    </template>
+	<!-- 1073 - Level 3 - Kiss of Eva -->
+    <template menuId="1027" target="BUFF_PLAYER">
+        <consume>
+            <item id="57" amount="1" />
+   	    </consume>
+        <produce>
+            <skill id="1073" level="3" />
+        </produce>
+    </template>
+	<!-- 1044 - Level 3 - Regeneration OK-->
+    <template menuId="1028" target="BUFF_PLAYER">
+        <consume>
+            <item id="57" amount="1" />
+   	    </consume>
+        <produce>
+            <skill id="1044" level="3" />
+        </produce>
+    </template>
+	<!-- 1033 - Level 3 - Resist Poison OK-->
+    <template menuId="1029" target="BUFF_PLAYER">
+        <consume>
+            <item id="57" amount="1" />
+   	    </consume>
+        <produce>
+            <skill id="1033" level="3" />
+        </produce>
+    </template>
+	<!-- 1032 - Level 3 - Invigor OK-->
+    <template menuId="1030" target="BUFF_PLAYER">
+        <consume>
+            <item id="57" amount="1" />
+   	    </consume>
+        <produce>
+            <skill id="1032" level="3" />
+        </produce>
+    </template>
+	<!-- 1352 - Level 1 - Elemental Protection OK-->
+    <template menuId="1031" target="BUFF_PLAYER">
+        <consume>
+            <item id="57" amount="1" />
+   	    </consume>
+        <produce>
+            <skill id="1352" level="1" />
+        </produce>
+    </template>
+	<!-- 1392 - Level 3 - Holy Resistance OK-->
+    <template menuId="1032" target="BUFF_PLAYER">
+        <consume>
+            <item id="57" amount="1" />
+   	    </consume>
+        <produce>
+            <skill id="1392" level="3" />
+        </produce>
+    </template>
+	<!-- 1393 - Level 3 - Unholy Resistance OK-->
+    <template menuId="1033" target="BUFF_PLAYER">
+        <consume>
+            <item id="57" amount="1" />
+   	    </consume>
+        <produce>
+            <skill id="1393" level="3" />
+        </produce>
+    </template>
+	<!-- 1354 - Level 1 - Arcane Protection OK-->
+    <template menuId="1034" target="BUFF_PLAYER">
+        <consume>
+            <item id="57" amount="1" />
+   	    </consume>
+        <produce>
+            <skill id="1354" level="1" />
+        </produce>
+    </template>
+	<!-- 1191 - Level 3 - Resist Fire OK-->
+    <template menuId="1035" target="BUFF_PLAYER">
+        <consume>
+            <item id="57" amount="1" />
+   	    </consume>
+        <produce>
+            <skill id="1191" level="3" />
+        </produce>
+    </template>
+	<!-- 1182 - Level 3 - Resist Aqua OK-->
+    <template menuId="1036" target="BUFF_PLAYER">
+        <consume>
+            <item id="57" amount="1" />
+   	    </consume>
+        <produce>
+            <skill id="1182" level="3" />
+        </produce>
+    </template>
+	<!-- 1353 - Level 1 - Divine Protection OK-->
+    <template menuId="1037" target="BUFF_PLAYER">
+        <consume>
+            <item id="57" amount="1" />
+   	    </consume>
+        <produce>
+            <skill id="1353" level="1" />
+        </produce>
+    </template>
+	<!-- 1189 - Level 3 - Resist Wind OK-->
+    <template menuId="1038" target="BUFF_PLAYER">
+        <consume>
+            <item id="57" amount="1" />
+   	    </consume>
+        <produce>
+            <skill id="1189" level="3" />
+        </produce>
+    </template>
+	<!-- 1043 - Level 1 - Holy Weapon -->
+    <template menuId="1039" target="BUFF_PLAYER">
+        <consume>
+            <item id="57" amount="1" />
+   	    </consume>
+        <produce>
+            <skill id="1043" level="1" />
+        </produce>
+    </template>
+	
+	<!-- Song -->
+	
+	<!-- 0264 - Level 1 - Song of Earth OK-->
+    <template menuId="1040" target="BUFF_PLAYER">
+        <consume>
+            <item id="57" amount="1" />
+   	    </consume>
+        <produce>
+            <skill id="264" level="1" />
+        </produce>
+    </template>
+	<!-- 0266 - Level 1 - Song of Water OK-->
+    <template menuId="1041" target="BUFF_PLAYER">
+        <consume>
+            <item id="57" amount="1" />
+   	    </consume>
+        <produce>
+            <skill id="266" level="1" />
+        </produce>
+    </template>
+	<!-- 0268 - Level 1 - Song of Wind OK-->
+    <template menuId="1042" target="BUFF_PLAYER">
+        <consume>
+            <item id="57" amount="1" />
+   	    </consume>
+        <produce>
+            <skill id="268" level="1" />
+        </produce>
+    </template>
+	<!-- 0270 - Level 1 - Song of Invocation OK-->
+    <template menuId="1043" target="BUFF_PLAYER">
+        <consume>
+            <item id="57" amount="1" />
+   	    </consume>
+        <produce>
+            <skill id="270" level="1" />
+        </produce>
+    </template>
+	<!-- 0305 - Level 1 - Song of Vengeance OK-->
+    <template menuId="1044" target="BUFF_PLAYER">
+        <consume>
+            <item id="57" amount="1" />
+   	    </consume>
+        <produce>
+            <skill id="305" level="1" />
+        </produce>
+    </template>
+	<!-- 0308 - Level 1 - Song of Storm Guard OK-->
+    <template menuId="1045" target="BUFF_PLAYER">
+        <consume>
+            <item id="57" amount="1" />
+   	    </consume>
+        <produce>
+            <skill id="308" level="1" />
+        </produce>
+    </template>
+	<!-- 0364 - Level 1 - Song of Champion OK-->
+    <template menuId="1046" target="BUFF_PLAYER">
+        <consume>
+            <item id="57" amount="1" />
+   	    </consume>
+        <produce>
+            <skill id="364" level="1" />
+        </produce>
+    </template>
+	<!-- 0265 - Level 1 - Song of Life OK-->
+    <template menuId="1047" target="BUFF_PLAYER">
+        <consume>
+            <item id="57" amount="1" />
+   	    </consume>
+        <produce>
+            <skill id="265" level="1" />
+        </produce>
+    </template>
+	<!-- 0267 - Level 1 - Song of Warding OK-->
+    <template menuId="1048" target="BUFF_PLAYER">
+        <consume>
+            <item id="57" amount="1" />
+   	    </consume>
+        <produce>
+            <skill id="267" level="1" />
+        </produce>
+    </template>
+	<!-- 0269 - Level 1 - Song of Hunter OK-->
+    <template menuId="1049" target="BUFF_PLAYER">
+        <consume>
+            <item id="57" amount="1" />
+   	    </consume>
+        <produce>
+            <skill id="269" level="1" />
+        </produce>
+    </template>
+	<!-- 0304 - Level 1 - Song of Vitality OK-->
+    <template menuId="1050" target="BUFF_PLAYER">
+        <consume>
+            <item id="57" amount="1" />
+   	    </consume>
+        <produce>
+            <skill id="304" level="1" />
+        </produce>
+    </template>
+	<!-- 0306 - Level 1 - Song of Flame Guard OK-->
+    <template menuId="1051" target="BUFF_PLAYER">
+        <consume>
+            <item id="57" amount="1" />
+   	    </consume>
+        <produce>
+            <skill id="306" level="1" />
+        </produce>
+    </template>
+	<!-- 0363 - Level 1 - Song of Meditation OK-->
+    <template menuId="1052" target="BUFF_PLAYER">
+        <consume>
+            <item id="57" amount="1" />
+   	    </consume>
+        <produce>
+            <skill id="363" level="1" />
+        </produce>
+    </template>
+	<!-- 0349 - Level 1 - Song of Renewal OK-->
+    <template menuId="1053" target="BUFF_PLAYER">
+        <consume>
+            <item id="57" amount="1" />
+   	    </consume>
+        <produce>
+            <skill id="349" level="1" />
+        </produce>
+    </template>
+	
+	<!-- Dance -->
+	
+	<!-- 0271 - Level 1 - Dance of the Warrior OK-->
+    <template menuId="1054" target="BUFF_PLAYER">
+        <consume>
+            <item id="57" amount="1" />
+   	    </consume>
+        <produce>
+            <skill id="271" level="1" />
+        </produce>
+    </template>
+	<!-- 0273 - Level 1 - Dance of the Mystic OK-->
+    <template menuId="1055" target="BUFF_PLAYER">
+        <consume>
+            <item id="57" amount="1" />
+   	    </consume>
+        <produce>
+            <skill id="273" level="1" />
+        </produce>
+    </template>
+	<!-- 0275 - Level 1 - Dance of Fury OK-->
+    <template menuId="1056" target="BUFF_PLAYER">
+        <consume>
+            <item id="57" amount="1" />
+   	    </consume>
+        <produce>
+            <skill id="275" level="1" />
+        </produce>
+    </template>
+	<!-- 0277 - Level 1 - Dance of Light OK-->
+    <template menuId="1057" target="BUFF_PLAYER">
+        <consume>
+            <item id="57" amount="1" />
+   	    </consume>
+        <produce>
+            <skill id="277" level="1" />
+        </produce>
+    </template>
+	<!-- 0309 - Level 1 - Dance of Earth Guard OK-->
+    <template menuId="1058" target="BUFF_PLAYER">
+        <consume>
+            <item id="57" amount="1" />
+   	    </consume>
+        <produce>
+            <skill id="309" level="1" />
+        </produce>
+    </template>
+	<!-- 0311 - Level 1 - Dance of Protection OK-->
+    <template menuId="1059" target="BUFF_PLAYER">
+        <consume>
+            <item id="57" amount="1" />
+   	    </consume>
+        <produce>
+            <skill id="311" level="1" />
+        </produce>
+    </template>
+	<!-- 0272 - Level 1 - Dance of Inspiration OK-->
+    <template menuId="1060" target="BUFF_PLAYER">
+        <consume>
+            <item id="57" amount="1" />
+   	    </consume>
+        <produce>
+            <skill id="272" level="1" />
+        </produce>
+    </template>
+	<!-- 0274 - Level 1 - Dance of Fire OK-->
+    <template menuId="1061" target="BUFF_PLAYER">
+        <consume>
+            <item id="57" amount="1" />
+   	    </consume>
+        <produce>
+            <skill id="274" level="1" />
+        </produce>
+    </template>
+	<!-- 0276 - Level 1 - Dance of Concentration OK-->
+    <template menuId="1062" target="BUFF_PLAYER">
+        <consume>
+            <item id="57" amount="1" />
+   	    </consume>
+        <produce>
+            <skill id="276" level="1" />
+        </produce>
+    </template>
+	<!-- 0307 - Level 1 - Dance of Aqua Guard OK-->
+    <template menuId="1063" target="BUFF_PLAYER">
+        <consume>
+            <item id="57" amount="1" />
+   	    </consume>
+        <produce>
+            <skill id="307" level="1" />
+        </produce>
+    </template>
+	<!-- 0310 - Level 1 - Dance of the Vampire OK-->
+    <template menuId="1064" target="BUFF_PLAYER">
+        <consume>
+            <item id="57" amount="1" />
+   	    </consume>
+        <produce>
+            <skill id="310" level="1" />
+        </produce>
+    </template>
+	<!-- 0365 - Level 1 - Siren's Dance OK-->
+    <template menuId="1065" target="BUFF_PLAYER">
+        <consume>
+            <item id="57" amount="1" />
+   	    </consume>
+        <produce>
+            <skill id="365" level="1" />
+        </produce>
+    </template>
+	
+	<!-- Others -->
+	
+	<!-- 1363 - Level 1 - Chant of Victory OK-->
+    <template menuId="1066" target="BUFF_PLAYER">
+        <consume>
+            <item id="57" amount="1" />
+   	    </consume>
+        <produce>
+            <skill id="1363" level="1" />
+        </produce>
+    </template>
+	<!-- 1413 - Level 1 - Magnus' Chant OK-->
+    <template menuId="1067" target="BUFF_PLAYER">
+        <consume>
+            <item id="57" amount="1" />
+   	    </consume>
+        <produce>
+            <skill id="1413" level="1" />
+        </produce>
+    </template>
+	<!-- 1356 - Level 1 - Prophecy of Fire OK-->
+    <template menuId="1068" target="BUFF_PLAYER">
+        <consume>
+            <item id="57" amount="1" />
+   	    </consume>
+        <produce>
+            <skill id="1356" level="1" />
+        </produce>
+    </template>
+	<!-- 1357 - Level 1 - Prophecy of Wind OK-->
+    <template menuId="1069" target="BUFF_PLAYER">
+        <consume>
+            <item id="57" amount="1" />
+   	    </consume>
+        <produce>
+            <skill id="1357" level="1" />
+        </produce>
+    </template>
+	<!-- 1355 - Level 1 - Prophecy of Water OK-->
+    <template menuId="1070" target="BUFF_PLAYER">
+        <consume>
+            <item id="57" amount="1" />
+   	    </consume>
+        <produce>
+            <skill id="1355" level="1" />
+        </produce>
+    </template>
+	<!-- 1416 - Level 1 - Pa'agrio's Fist -->
+    <template menuId="1071" target="BUFF_PLAYER">
+        <consume>
+            <item id="57" amount="1" />
+   	    </consume>
+        <produce>
+            <skill id="1416" level="1" />
+        </produce>
+    </template>
+	<!-- 1414 - Level 1 - Victory of Pa'agrio OK-->
+    <template menuId="1072" target="BUFF_PLAYER">
+        <consume>
+            <item id="57" amount="1" />
+   	    </consume>
+        <produce>
+            <skill id="1414" level="1" />
+        </produce>
+    </template>
+	
+	<!-- Others Pets -->
+	
+	<!-- 4699 - Level 8 - Blessing of Queen OK-->
+    <template menuId="1073" target="BUFF_PLAYER">
+        <consume>
+            <item id="57" amount="1" />
+   	    </consume>
+        <produce>
+            <skill id="4699" level="8" />
+        </produce>
+    </template>
+	<!-- 4700 - Level 8 - Gift of Queen OK-->
+    <template menuId="1074" target="BUFF_PLAYER">
+        <consume>
+            <item id="57" amount="1" />
+   	    </consume>
+        <produce>
+            <skill id="4700" level="8" />
+        </produce>
+    </template>
+	<!-- 4702 - Level 8 - Blessing of Seraphim OK-->
+    <template menuId="1075" target="BUFF_PLAYER">
+        <consume>
+            <item id="57" amount="1" />
+   	    </consume>
+        <produce>
+            <skill id="4702" level="8" />
+        </produce>
+    </template>
+	<!-- 4703 - Level 8 - Gift of Seraphim OK-->
+    <template menuId="1076" target="BUFF_PLAYER">
+        <consume>
+            <item id="57" amount="1" />
+   	    </consume>
+        <produce>
+            <skill id="4703" level="8" />
+        </produce>
+    </template>
+	
+	<!-- Hot Springs -->
+	
+	<!-- 4554 - Level 4 - Hot Springs Malaria OK-->
+    <template menuId="1077" target="BUFF_PLAYER">
+        <consume>
+            <item id="57" amount="1" />
+   	    </consume>
+        <produce>
+            <skill id="4554" level="4" />
+        </produce>
+    </template>
+	<!-- 4554 - Level 4 - Hot Springs Flu OK-->
+    <template menuId="1078" target="BUFF_PLAYER">
+        <consume>
+            <item id="57" amount="1" />
+   	    </consume>
+        <produce>
+            <skill id="4553" level="4" />
+        </produce>
+    </template>
+	<!-- 4554 - Level 4 - Hot Springs Cholera OK-->
+    <template menuId="1079" target="BUFF_PLAYER">
+        <consume>
+            <item id="57" amount="1" />
+   	    </consume>
+        <produce>
+            <skill id="4552" level="4" />
+        </produce>
+    </template>
+	<!-- 4554 - Level 4 - Hot Springs Rheu. OK-->
+    <template menuId="1080" target="BUFF_PLAYER">
+        <consume>
+            <item id="57" amount="1000" is_premium_required="false"/>
+   	    </consume>
+        <produce>
+            <skill id="4551" level="4" />
+        </produce>
+    </template>
+	
+	<!-- Summon Cubic -->
+	
+	<!-- Summon - Level 1 - Summon Binding Cubic OK-->
+    <template menuId="1081" target="BUFF_PLAYER">
+        <consume>
+            <item id="57" amount="1000" is_premium_required="false"/>
+   	    </consume>
+        <produce>
+            <skill id="1279" level="9" />
+        </produce>
+    </template>
+	<!-- Summon - Level 1 - Summon Storm Cubic OK-->
+    <template menuId="1082" target="BUFF_PLAYER">
+        <consume>
+            <item id="57" amount="1000" is_premium_required="false"/>
+   	    </consume>
+        <produce>
+            <skill id="10" level="8" />
+        </produce>
+    </template>
+	<!-- Summon - Level 1 - Summon Life Cubic OK-->
+    <template menuId="1083" target="BUFF_PLAYER">
+        <consume>
+            <item id="57" amount="1000" is_premium_required="false"/>
+   	    </consume>
+        <produce>
+            <skill id="67" level="7" />
+        </produce>
+    </template>
+	<!-- Summon - Level 1 - Summon Aqua Cubic OK-->
+    <template menuId="1084" target="BUFF_PLAYER">
+        <consume>
+            <item id="57" amount="1000" is_premium_required="false"/>
+   	    </consume>
+        <produce>
+            <skill id="1280" level="9" />
+        </produce>
+    </template>
+</list>
