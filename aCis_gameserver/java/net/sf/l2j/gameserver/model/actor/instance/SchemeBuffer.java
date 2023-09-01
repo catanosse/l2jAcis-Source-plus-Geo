@@ -29,6 +29,7 @@ public class SchemeBuffer extends Folk
 	@Override
 	public void onBypassFeedback(Player player, String command)
 	{
+		if (!player.isInCombat()) {					
 		StringTokenizer st = new StringTokenizer(command, " ");
 		String currentCommand = st.nextToken();
 		
@@ -166,8 +167,11 @@ public class SchemeBuffer extends Folk
 			}
 			showGiveBuffsWindow(player);
 		}
-		
+
 		super.onBypassFeedback(player, command);
+		} else {
+			player.sendMessage("You cant have buffs while in Combat.");
+		}
 	}
 	
 	@Override
@@ -263,8 +267,40 @@ public class SchemeBuffer extends Folk
 		int row = 0;
 		for (int skillId : skills)
 		{
-			final String icon = (skillId < 100) ? "icon.skill00" + skillId : (skillId < 1000) ? "icon.skill0" + skillId : "icon.skill" + skillId;
+			String icon = (skillId < 100) ? "icon.skill00" + skillId : (skillId < 1000) ? "icon.skill0" + skillId : "icon.skill" + skillId;
 			
+			switch (skillId)
+			{
+				case 4699:
+				case 4700:
+					icon = "icon.skill1331";
+					break;
+				case 4702:
+				case 4703:
+					icon = "icon.skill1332";
+					break;
+				case 7070:
+					icon = "NPHRN_ICO.NPHRN_HS_Malaria04";
+					break;
+				case 7071:
+					icon = "NPHRN_ICO.NPHRN_HS_Rheuma04";
+					break;
+				case 7072:
+					icon = "NPHRN_ICO.NPHRN_HS_Cholera04";
+					break;
+				case 7073:
+					icon = "NPHRN_ICO.NPHRN_HS_Flu04";
+					break;
+				
+			}
+			/*if (skillId == 4699 || skillId == 4700)
+			{
+				icon = "icon.skill1331";
+			}
+			if (skillId == 4702 || skillId == 4703)
+			{
+				icon = "icon.skill1332";
+			} */
 			sb.append(((row % 2) == 0 ? "<table width=\"280\" bgcolor=\"000000\"><tr>" : "<table width=\"280\"><tr>"));
 			
 			if (schemeSkills.contains(skillId))

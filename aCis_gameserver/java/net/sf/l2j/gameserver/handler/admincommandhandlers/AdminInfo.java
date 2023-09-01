@@ -331,7 +331,7 @@ public class AdminInfo implements IAdminCommandHandler
 			if (name.length() >= 45)
 				name = name.substring(0, 42) + "...";
 			
-			StringUtil.append(sb, "<td width=34 height=34><img src=icon.noimage width=32 height=32></td>");
+			StringUtil.append(sb, "<td width=34 height=34><img src="+ item.get_icon() + " width=32 height=32></td>");
 			StringUtil.append(sb, "<td width=246 height=34>", name, "<br1><font color=B09878>", ((isDrop) ? "Drop" : "Spoil"), ": ", chance, "% Min: ", drop.getMinDrop(), " Max: ", drop.getMaxDrop(), "</font></td>");
 			
 			sb.append("</tr></table><img src=\"L2UI.SquareGray\" width=277 height=1>");

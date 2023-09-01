@@ -10,6 +10,7 @@ import net.sf.l2j.gameserver.data.xml.AdminData;
 import net.sf.l2j.gameserver.enums.FloodProtector;
 import net.sf.l2j.gameserver.handler.AdminCommandHandler;
 import net.sf.l2j.gameserver.handler.IAdminCommandHandler;
+import net.sf.l2j.gameserver.handler.Voicedcommandhandlers.Info;
 import net.sf.l2j.gameserver.model.World;
 import net.sf.l2j.gameserver.model.WorldObject;
 import net.sf.l2j.gameserver.model.actor.Npc;
@@ -184,6 +185,28 @@ public final class RequestBypassToServer extends L2GameClientPacket
 			
 			final int arenaId = Integer.parseInt(_command.substring(12).trim());
 			player.enterOlympiadObserverMode(arenaId);
+		}
+		
+		else if (_command.startsWith("droplist"))
+		{//droplist 2010 2 drop
+
+			StringTokenizer st = new StringTokenizer(_command, " ");
+			st.nextToken();
+			
+			int npcId = Integer.parseInt(st.nextToken());
+			
+			final Npc targetNpc = (Npc) player.getTarget();
+		
+			int page = st.hasMoreTokens() ? Integer.parseInt(st.nextToken()) : 1;
+
+			final NpcHtmlMessage html = new NpcHtmlMessage(0);
+			html.setFile("data/html/admin/npcinfo/defaultDropInfo.htm");
+			boolean isDrop = st.nextToken().contains("drop");
+			if(targetNpc != null) {
+			Info.sendDropInfos(targetNpc, html, page, isDrop);
+			
+			player.sendPacket(html);
+			}
 		}
 	}
 }

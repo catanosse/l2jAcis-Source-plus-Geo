@@ -506,21 +506,24 @@ public class PlayerStatus extends PlayableStatus<Player>
 	@Override
 	public boolean addExpAndSp(long addToExp, int addToSp)
 	{
-		if (!super.addExpAndSp(addToExp, addToSp))
-			return false;
-		
-		SystemMessage sm;
-		
-		if (addToExp == 0 && addToSp > 0)
-			sm = SystemMessage.getSystemMessage(SystemMessageId.ACQUIRED_S1_SP).addNumber(addToSp);
-		else if (addToExp > 0 && addToSp == 0)
-			sm = SystemMessage.getSystemMessage(SystemMessageId.EARNED_S1_EXPERIENCE).addNumber((int) addToExp);
-		else
-			sm = SystemMessage.getSystemMessage(SystemMessageId.YOU_EARNED_S1_EXP_AND_S2_SP).addNumber((int) addToExp).addNumber(addToSp);
-		
-		_actor.sendPacket(sm);
-		
+		if (!_actor.isxpOff())
+		{
+			if (!super.addExpAndSp(addToExp, addToSp))
+				return false;
+			
+			SystemMessage sm;
+			
+			if (addToExp == 0 && addToSp > 0)
+				sm = SystemMessage.getSystemMessage(SystemMessageId.ACQUIRED_S1_SP).addNumber(addToSp);
+			else if (addToExp > 0 && addToSp == 0)
+				sm = SystemMessage.getSystemMessage(SystemMessageId.EARNED_S1_EXPERIENCE).addNumber((int) addToExp);
+			else
+				sm = SystemMessage.getSystemMessage(SystemMessageId.YOU_EARNED_S1_EXP_AND_S2_SP).addNumber((int) addToExp).addNumber(addToSp);
+			
+			_actor.sendPacket(sm);
+		}
 		return true;
+		
 	}
 	
 	/**

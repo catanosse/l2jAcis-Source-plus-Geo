@@ -13,6 +13,7 @@ import net.sf.l2j.gameserver.model.item.kind.Armor;
 import net.sf.l2j.gameserver.model.item.kind.Item;
 import net.sf.l2j.gameserver.model.item.kind.Weapon;
 import net.sf.l2j.gameserver.network.serverpackets.InventoryUpdate;
+import net.sf.l2j.gameserver.network.serverpackets.NpcHtmlMessage;
 import net.sf.l2j.gameserver.skills.L2Skill;
 
 public class AdminEnchant implements IAdminCommandHandler
@@ -163,6 +164,10 @@ public class AdminEnchant implements IAdminCommandHandler
 			player.sendMessage("Usage: //enchant slot enchant");
 			player.sendMessage("Slots: under|lear|rear|neck|lfinger|rfinger|head|rhand|lhand");
 			player.sendMessage("Slots: gloves|chest|legs|feet|cloak|face|hair|hairall");
+			final NpcHtmlMessage html = new NpcHtmlMessage(0);
+			html.setFile("data/html/admin/enchant_table.htm");
+			player.sendPacket(html);
+
 		}
 	}
 	

@@ -105,6 +105,7 @@ public abstract class Item
 	
 	private final int _itemId;
 	private final String _name;
+	private final String _icon;
 	protected int _type1; // needed for item list (inventory)
 	protected int _type2; // different lists for armor, weapon, etc
 	private final int _weight;
@@ -138,11 +139,17 @@ public abstract class Item
 	{
 		_itemId = set.getInteger("item_id");
 		_name = set.getString("name");
+		_icon = set.getString("icon","icon.noimage");
 		_weight = set.getInteger("weight", 0);
 		_materialType = set.getEnum("material", MaterialType.class, MaterialType.STEEL);
 		_duration = set.getInteger("duration", -1);
 		_bodyPart = SLOTS.get(set.getString("bodypart", "none"));
+		
+		if (_name.contains("Spellbook:") || _name.contains("Blueprint:") || _name.contains("Amulet:")) 
+			_referencePrice = 100;
+		else
 		_referencePrice = set.getInteger("price", 0);
+		
 		_crystalType = set.getEnum("crystal_type", CrystalType.class, CrystalType.NONE);
 		_crystalCount = set.getInteger("crystal_count", 0);
 		
@@ -542,5 +549,13 @@ public abstract class Item
 	public List<Quest> getQuestEvents()
 	{
 		return _questEvents;
+	}
+
+	/**
+	 * @return the _icon
+	 */
+	public String get_icon()
+	{
+		return _icon;
 	}
 }

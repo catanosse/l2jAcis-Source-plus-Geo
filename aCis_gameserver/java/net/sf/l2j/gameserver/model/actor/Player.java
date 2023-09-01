@@ -464,6 +464,8 @@ public final class Player extends Playable
 	
 	private Door _requestedGate;
 	
+	private boolean _xpOff;
+	
 	/**
 	 * Constructor of Player (use Creature constructor).
 	 * <ul>
@@ -7406,5 +7408,21 @@ public final class Player extends Playable
 			gms.add(this);
 		
 		return gms;
+	}
+
+	/**
+	 * @return the _xpOff
+	 */
+	public boolean isxpOff()
+	{
+		return _xpOff;
+	}
+
+	/**
+	 * @param _xpOff the _xpOff to set
+	 */
+	public void setxpOff(boolean _xpOff)
+	{
+		this._xpOff = _xpOff;
 	}
 }
